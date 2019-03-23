@@ -15,7 +15,7 @@ var buttonColors = ["red","blue","green","yellow"];
 
 $(document).click(function() {
   if (!started) {
-    alert("game on!");
+//     alert("game on!");
     $("#level-title").text("Level " + level);
     nextSequence();
     started = true;
