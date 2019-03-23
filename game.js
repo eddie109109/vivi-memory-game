@@ -5,13 +5,24 @@ var started = false;
 
 var buttonColors = ["red","blue","green","yellow"];
 
-$(document).keydown(function() {
+// $(document).keydown(function() {
+//   if (!started) {
+//     $("#level-title").text("Level " + level);
+//     nextSequence();
+//     started = true;
+//   }
+// });
+
+$(document).click(function() {
   if (!started) {
+    alert("game on!");
     $("#level-title").text("Level " + level);
     nextSequence();
     started = true;
   }
 });
+
+
 
 $(".btn").click(function(event) {
   var userChosenColor = $(this).attr("id");
