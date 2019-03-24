@@ -84,7 +84,7 @@ function checkAnswer(currentLevel) {
     setTimeout(function(){
       $("body").removeClass("game-over");
     },200);
-    $("#level-title").text("Game Over, Press Any Key to Restart");
+    $("#level-title").text("Game Over, Press Start Button to Restart");
     startOver();
   }
 }
@@ -112,7 +112,7 @@ function congrats() {
     setTimeout(function(){
       $("body").removeClass("game-over");
     },200);
-    $("#level-title").text("Game Over, Press Any Key to Restart");
+    $("#level-title").text("Game Over, Press Start Button to Restart");
         startOver();
     }
   } 
@@ -122,16 +122,16 @@ function congrats() {
   else if (level === 3) {
     var q2 = prompt("我靓仔定系谢霆锋靓仔？(按1表示我，按2表示谢霆锋)");
       if (q2 === "1") {
-        alert("哇！好开心，你可以继续玩");
+        alert("哇！英明如你，你可以继续玩");
       }
       else if (q2 === "2") {
-        alert("我都估到噶啦，哈哈哈,Gameover!");
+        alert("我都估到你会选谢霆锋噶啦，不过, Gameover!");
         playSound("wrong");
         $("body").addClass("game-over");
         setTimeout(function(){
         $("body").removeClass("game-over");
         },200);
-        $("#level-title").text("Game Over, Press Any Key to Restart");
+        $("#level-title").text("Game Over, Press Start Button to Restart");
         startOver();
       }
       else {
@@ -141,7 +141,7 @@ function congrats() {
         setTimeout(function(){
         $("body").removeClass("game-over");
         },200);
-        $("#level-title").text("Game Over, Press Any Key to Restart");
+        $("#level-title").text("Game Over, Press Start Button to Restart");
         startOver();
       }
   } 
@@ -161,7 +161,7 @@ function congrats() {
     setTimeout(function(){
       $("body").removeClass("game-over");
     },200);
-    $("#level-title").text("Game Over, Press Any Key to Restart");
+    $("#level-title").text("Game Over, Press Start Button to Restart");
         startOver();
       }
   } 
@@ -181,7 +181,7 @@ function congrats() {
     setTimeout(function(){
       $("body").removeClass("game-over");
     },200);
-    $("#level-title").text("Game Over, Press Any Key to Restart");
+    $("#level-title").text("Game Over, Press Start Button to Restart");
         startOver();
   }
  } else {
