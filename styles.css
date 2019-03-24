@@ -7,6 +7,18 @@ span {
   color:gold;
 }
 
+.begin {
+  color:red;
+  margin: 10px;
+  display: inline-block;
+  height: 50px;
+  width: 100px;
+  border: 5px solid ;
+  border-radius: 40%;
+  background-color: pink;
+  font-family: 'Press Start 2P', cursive;
+}
+
 h2 {
   color: pink;
   font-family: 'Press Start 2P', cursive;
