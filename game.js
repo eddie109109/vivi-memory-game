@@ -13,16 +13,14 @@ var buttonColors = ["red","blue","green","yellow"];
 //   }
 // });
 
-$(document).click(function() {
+$(".begin").click(function() {
   if (!started) {
-//     alert("game on!");
+    // alert("game on!");
     $("#level-title").text("Level " + level);
     nextSequence();
     started = true;
   }
 });
-
-
 
 $(".btn").click(function(event) {
   var userChosenColor = $(this).attr("id");
